@@ -4,6 +4,9 @@ class Kss < Formula
   homepage "https://github.com/chmouel/kss"
   version "0.0.1"
 
+  depends_on "fzf"
+  depends_on "kubectl"
+
   url "https://github.com/chmouel/kss/tarball/#{version}"
   sha256 "49a96d64439f52b9d163bee07dc4449f45cf6b8a73dce1cc8a56d077a2cbd984"
 
