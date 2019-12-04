@@ -8,7 +8,7 @@ class Kss < Formula
   depends_on "kubectl"
 
   url "https://github.com/chmouel/kss/tarball/#{version}"
-  sha256 "79bb67123983eeeef9140dbf8b0a37bc78f03e5954ac17b3d55e53d34912514d"
+  sha256 "8148589bea1d655a61eb4ca992e1a3a93c0e264e1057b58665c6c86f94235529"
 
   def install
     bin.install "kss" => "kss"
